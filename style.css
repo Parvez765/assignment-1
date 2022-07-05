@@ -1,6 +1,5 @@
-*{
+body{
     margin: 0;
-    padding: 0;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -14,7 +13,7 @@
 .header-maincontent{
     margin-left: 3%;
     text-align: center;
-    padding: 300px;
+    padding: 250px;
 }
 
 .heading{
@@ -48,7 +47,6 @@
 .donation-paragraph{
     color: black;
     font-size: 20px;
-    margin-top: 25px;
 }
 
 .donation-heading{
@@ -72,7 +70,6 @@
     padding: 30px;
     margin-right: 25px;
     border-radius: 10px;
-    
 }
 
 #twohundred{
@@ -91,7 +88,7 @@
 
 .donationplan-heading{
     color: black;
-    margin-top: 250px;
+    margin-top: 200px;
     font-size: 60px;
 }
 
@@ -107,6 +104,7 @@
     padding: 40px;
     margin-right: 20px;
     border-radius: 15px;
+    margin-bottom: 30px;
 }
 .card-heading{
     margin-top: 30px;
@@ -127,4 +125,33 @@
 
 #card3{
     background-color: rgb(255, 190, 199);
+}
+
+.contact{
+    margin-bottom: 200px;
+}
+
+.contact-btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.footer {
+    margin-top: 30px;
+    background-color: black;
+    padding: 40px;
+    
+}
+
+.footer h1{
+    font-size: 60px;
+    color: white;
+}
+.footer p{
+    font-size: 30px;
+    color: white;
 }
