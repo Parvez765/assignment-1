@@ -17,13 +17,13 @@
     padding: 300px;
 }
 
-.header-section h1{
+.heading{
     font-size: 60px;
     color: white;
     margin-bottom: 15px;
 }
 
-.header-section p{
+.paragraph{
     font-size: 20px;
     margin-bottom: 50px;
     color: white;
@@ -37,4 +37,50 @@
     border-radius: 5px;
     font-size: 25px;
     color: white;
+}
+
+.donation-section{
+    margin-left: 3%;
+    text-align: center;
+    padding: 100px;
+}
+
+#donationparagrah{
+    color: black
+}
+
+#donation-heading{
+    color: black;
+    margin-bottom: 25px;
+}
+
+.donation-amount{
+    display: flex;
+}
+
+.amountof-money{
+    width: 50%;
+    margin-top: 50px;
+}
+.money{
+    font-size: 50px;
+    background-color: #f3f3f3;
+    box-sizing: border-box;
+    padding: 30px;
+    margin-right: 25px;
+    border-radius: 10px;
+    
+}
+
+#twohundred{
+    border: 2px solid #f94e4e;
+    background-color: #ffd7d7;
+    color: #f94e4e;
+}
+
+.amount-input{
+    margin-top: 100px;
+    font-size: 30px;
+    border: none;
+    margin-bottom: 60px;
 }
