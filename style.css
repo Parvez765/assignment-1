@@ -45,13 +45,16 @@
     padding: 100px;
 }
 
-#donationparagrah{
-    color: black
+.donation-paragraph{
+    color: black;
+    font-size: 20px;
+    margin-top: 25px;
 }
 
-#donation-heading{
+.donation-heading{
     color: black;
     margin-bottom: 25px;
+    font-size: 60px;
 }
 
 .donation-amount{
@@ -81,6 +84,47 @@
 .amount-input{
     margin-top: 100px;
     font-size: 30px;
-    border: none;
+    border: 1px solid gray;
     margin-bottom: 60px;
+    padding: 10px 10px;
+}
+
+.donationplan-heading{
+    color: black;
+    margin-top: 250px;
+    font-size: 60px;
+}
+
+.donation-card{
+    display: flex;
+}
+
+.card{
+    width: 50%;
+    margin-top: 60px;
+    text-align: left;
+    background-color: rgb(232, 232, 232);
+    padding: 40px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+.card-heading{
+    margin-top: 30px;
+    font-size: 35px;
+}
+.card-paragraph{
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+#card1{
+    background-color: rgb(229, 255, 254);
+}
+
+#card2{
+    background-color: rgb(250, 255, 200);
+}
+
+#card3{
+    background-color: rgb(255, 190, 199);
 }
