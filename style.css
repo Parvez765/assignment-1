@@ -1,5 +1,40 @@
-body{
+*{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+}
+
+.header-section{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/donation7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-maincontent{
+    margin-left: 3%;
+    text-align: center;
+    padding: 300px;
+}
+
+.header-section h1{
+    font-size: 60px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.header-section p{
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: white;
+    
+}
+
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-size: 25px;
+    color: white;
 }
